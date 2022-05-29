@@ -76,16 +76,6 @@ footer .contact-box p {
   margin: 0;
 }
 
-footer .email-link {
-  text-decoration: none;
-  color: black;
-  font-size: 24px;
-}
-
-footer .email-link:hover {
-  color: var(--branding-color);
-}
-
 footer .social-links a {
   margin: 0 20px;
   color: var(--branding-color);
