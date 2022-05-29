@@ -9,6 +9,33 @@ body {
   font-family: var(--default-font-family);
 }
 
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
 h1,
 h2,
 h3,
@@ -37,6 +64,45 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
+.developer-logo {
+  padding: 10px;
 }
 
 .hero {
@@ -84,7 +150,7 @@ p {
 }
 
 .content {
-  margin: 30px;
+  margin: 10px;
 }
 
 .btn-branding {
@@ -109,75 +175,8 @@ p {
   padding: 120px 60px;
 }
 
-.portfolio-image {
-  width: 560px;
-  height: 560px;
-}
-
 .logo {
   max-height: 40px;
-}
-
-nav {
-  padding: 20px 0;
-}
-
-nav ul {
-  padding: 0;
-  margin: 0;
-}
-
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 42px;
-  margin-left: 15px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #272142;
-  transition: all 100ms ease-in-out;
-}
-
-nav a:hover,
-nav li.active a {
-  color: var(--branding-color);
-}
-
-footer .contact-box {
-  background: var(--secondary-color);
-  padding: 30px 120px;
-  border-radius: 10px;
-}
-
-footer .contact-box p {
-  margin: 0;
-}
-
-footer .email-link {
-  text-decoration: none;
-  color: black;
-  font-size: 24px;
-}
-
-footer .email-link:hover {
-  color: var(--branding-color);
-}
-
-footer .social-links a {
-  margin: 0 20px;
-  color: var(--branding-color);
-  background: var(--secondary-color);
-  padding: 10px 14px;
-  border-radius: 50%;
-  font-size: 18px;
-  transition: all 100ms ease-in-out;
-}
-
-footer .social-links a:hover {
-  color: white;
-  background: var(--branding-color);
 }
 
 @media (max-width: 900px) {
